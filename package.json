@@ -1,0 +1,22 @@
+{
+  "name": "fatora",
+  "version": "1.0.0",
+  "description": "a library for fatora.io api",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ammarhashad/fatora.git"
+  },
+  "keywords": [
+    "fatora"
+  ],
+  "author": "Ammar Hashad",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ammarhashad/fatora/issues"
+  },
+  "homepage": "https://github.com/ammarhashad/fatora#readme"
+}
