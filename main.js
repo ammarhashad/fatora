@@ -1,6 +1,5 @@
 "use strict";
 exports.__esModule = true;
-exports.Fatora = void 0;
 var client_api_1 = require("./ClientApi/client.api");
 var invoice_api_1 = require("./InvoiceApi/invoice.api");
 var payment_api_1 = require("./PaymentApi/payment.api");
@@ -18,4 +17,4 @@ var Fatora = /** @class */ (function () {
     }
     return Fatora;
 }());
-exports.Fatora = Fatora;
+exports["default"] = Fatora;
