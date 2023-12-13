@@ -1,9 +1,11 @@
+import ClientApi from "./ClientApi/client.api"
 import InvoiceApi from "./InvoiceApi/invoice.api"
 import PaymentApi from "./PaymentApi/payment.api"
 
-export class FatoraClient {
+export class Fatora {
   PaymentApi: PaymentApi
   InvoiceApi: InvoiceApi
+  ClientApi: ClientApi
   constructor({ apiKey }) {
     // Define Headers
     let headers: Headers = new Headers()
@@ -14,15 +16,7 @@ export class FatoraClient {
     this.PaymentApi = new PaymentApi(headers)
 
     this.InvoiceApi = new InvoiceApi(headers)
+
+    this.ClientApi = new ClientApi(headers)
   }
 }
-
-let client = new FatoraClient({
-  apiKey: "E4B73FEE-F492-4607-A38D-852B0EBC91C9",
-})
-
-let newInvoice = await client.InvoiceApi.DeleteInvoice({
-  invoice_id: 2045,
-})
-
-console.log(newInvoice)
