@@ -2,7 +2,7 @@ import ClientApi from "./ClientApi/client.api"
 import InvoiceApi from "./InvoiceApi/invoice.api"
 import PaymentApi from "./PaymentApi/payment.api"
 
-export default class Fatora {
+export class Fatora {
   PaymentApi: PaymentApi
   InvoiceApi: InvoiceApi
   ClientApi: ClientApi

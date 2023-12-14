@@ -1,8 +1,8 @@
 {
   "name": "fatora",
-  "version": "1.0.1",
+  "version": "1.1.4",
   "description": "a library for fatora.io api",
-  "main": "main.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/ammarhashad/fatora/issues"
   },
-  "homepage": "https://github.com/ammarhashad/fatora#readme"
+  "homepage": "https://github.com/ammarhashad/fatora#readme",
+  "dependencies": {
+    "fatora": "^1.0.2"
+  }
 }
