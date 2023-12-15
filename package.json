@@ -1,6 +1,6 @@
 {
   "name": "fatora",
-  "version": "1.2.4",
+  "version": "1.2.5",
   "description": "a library for fatora.io api",
   "main": "entry.js",
   "scripts": {
@@ -18,8 +18,5 @@
   "bugs": {
     "url": "https://github.com/ammarhashad/fatora/issues"
   },
-  "homepage": "https://github.com/ammarhashad/fatora#readme",
-  "dependencies": {
-    "fatora": "^1.2.3"
-  }
+  "homepage": "https://github.com/ammarhashad/fatora#readme"
 }
