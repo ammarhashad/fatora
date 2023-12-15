@@ -6,7 +6,7 @@
 
 >     yarn add fatora
 
-### npm
+#### npm
 
 >     npm install fatora
 
@@ -21,8 +21,6 @@
 >     import  fatora  from  "fatora"
 >
 >     const  FatoraClient = new  fatora({ apiKey:  "YOUR_API_KEY" })
->
->
 
 ### Example
 
