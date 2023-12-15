@@ -2,8 +2,8 @@
 
 ### Usage
 
-~~**\***> // For CommonJS Modules
-
+>     >   // For CommonJS Modules
+>
 >     const  fatora = require("fatora")
 >
 >     // For ES6 Modules
