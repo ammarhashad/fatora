@@ -1,7 +1,7 @@
 import ClientApi from "./ClientApi/client.api"
 import InvoiceApi from "./InvoiceApi/invoice.api"
 import PaymentApi from "./PaymentApi/payment.api"
-import { ProductApi } from "./ProductApi/product.api"
+import ProductApi from "./ProductApi/product.api"
 
 export class Fatora {
   PaymentApi: PaymentApi

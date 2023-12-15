@@ -9,7 +9,7 @@ import {
   SearchProductBody,
 } from "./types"
 
-export class ProductApi {
+export default class ProductApi {
   private readonly ProductBaseAPi = `${fatoraEndpoint}/products`
   private readonly headers: Headers
   constructor(headers: Headers) {

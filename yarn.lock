@@ -2,9 +2,7 @@
 # yarn lockfile v1
 
 
-fatora@^1.2.3, fatora@^1.2.5:
-  version "1.2.5"
-  resolved "https://registry.yarnpkg.com/fatora/-/fatora-1.2.5.tgz#75e97368d6761f62389ed9f35fd9934eb6699543"
-  integrity sha512-xxRCuVpxPB9+bPQW5oY13CkcZ2KATwmmaL9eDtIGyvTGbFqWRnWpEAJVh0SzpdG3KAsRU90pLI4iaJc4XWH9iA==
-  dependencies:
-    fatora "^1.2.3"
+fatora@^1.2.6:
+  version "1.2.6"
+  resolved "https://registry.yarnpkg.com/fatora/-/fatora-1.2.6.tgz#bb81b1ce7163c56bce16fe54c713f09710d0a134"
+  integrity sha512-4NfHFiQQkj6mbgiNAlsNzQh+kFsnmYrMhm0yS1ZAtHtagGg0ZogehuCCCM3cMpGF5EIEli0j4X7BUE/kfENeVQ==

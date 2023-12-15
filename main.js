@@ -16,7 +16,7 @@ var Fatora = /** @class */ (function () {
         this.PaymentApi = new payment_api_1["default"](headers);
         this.InvoiceApi = new invoice_api_1["default"](headers);
         this.ClientApi = new client_api_1["default"](headers);
-        this.ProductApi = new product_api_1.ProductApi(headers);
+        this.ProductApi = new product_api_1["default"](headers);
     }
     return Fatora;
 }());

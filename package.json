@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/ammarhashad/fatora/issues"
   },
-  "homepage": "https://github.com/ammarhashad/fatora#readme"
+  "homepage": "https://github.com/ammarhashad/fatora#readme",
+  "dependencies": {
+    "fatora": "^1.2.6"
+  }
 }
