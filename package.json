@@ -1,6 +1,6 @@
 {
   "name": "fatora",
-  "version": "1.2.6",
+  "version": "1.3.0",
   "description": "a library for fatora.io api",
   "main": "entry.js",
   "scripts": {
