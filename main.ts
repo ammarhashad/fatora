@@ -24,5 +24,3 @@ export class Fatora {
     this.ProductApi = new ProductApi(headers)
   }
 }
-
-let client = new Fatora({ apiKey: "E4B73FEE-F492-4607-A38D-852B0EBC91C9" })

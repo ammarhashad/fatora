@@ -1,6 +1,6 @@
 {
   "name": "fatora",
-  "version": "1.2.1",
+  "version": "v1.2.1",
   "description": "a library for fatora.io api",
   "main": "index.js",
   "scripts": {
@@ -11,7 +11,7 @@
     "url": "git+https://github.com/ammarhashad/fatora.git"
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com"
+    "registry": "https://npm.pkg.github.com/"
   },
   "keywords": [
     "fatora"

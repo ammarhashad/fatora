@@ -4,6 +4,7 @@ exports.Fatora = void 0;
 var client_api_1 = require("./ClientApi/client.api");
 var invoice_api_1 = require("./InvoiceApi/invoice.api");
 var payment_api_1 = require("./PaymentApi/payment.api");
+var product_api_1 = require("./ProductApi/product.api");
 var Fatora = /** @class */ (function () {
     function Fatora(_a) {
         var apiKey = _a.apiKey;
@@ -15,6 +16,7 @@ var Fatora = /** @class */ (function () {
         this.PaymentApi = new payment_api_1["default"](headers);
         this.InvoiceApi = new invoice_api_1["default"](headers);
         this.ClientApi = new client_api_1["default"](headers);
+        this.ProductApi = new product_api_1.ProductApi(headers);
     }
     return Fatora;
 }());
